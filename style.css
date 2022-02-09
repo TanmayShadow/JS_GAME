@@ -1,0 +1,664 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: url(image/game-back.png);
+    background-repeat: no-repeat;
+    background-size: 1519px 750px;
+
+}
+#MyCanvas{
+    border: 2px solid red;
+    
+    height: 740px;
+    width: 1530px;
+}
+#box1{
+    background-image: url(image/skelton.png);
+    background-size: cover;
+    border: 1px solid black;
+    margin-top:630px;
+    height: 70px;
+    width: 50px;
+    position: absolute;
+}
+#bronze-key{
+    background-image: url(image/bronze-key.jpg);
+    border:1px solid black;
+    height: 80px;
+    width: 50px;
+    margin-top: 450px;
+    position:absolute;
+}
+#silver-key{
+    background-image: url(image/silver-key.jpg);
+    border:1px solid black;
+    height: 80px;
+    width: 45px;
+    margin-top: 335px;
+    margin-left: 1450px;
+    position:absolute;
+}
+#gold-key{
+    background-image: url(image/gold-key.jpg);
+    border:1px solid black;
+    height: 80px;
+    width: 45px;
+    margin-top: 0px;
+    margin-left: 1050px;
+    position:absolute;
+}
+#win{
+    background-image: url(image/win.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    border: 7px dashed gray;
+    height: 350px;
+    width: 450px;
+    position: absolute;
+    margin-left: 70vh;
+    margin-top: 25vh;
+    padding-top: 20px;
+}
+
+#start{
+    background-image: url(image/start-img.png);
+    background-repeat: no-repeat;
+    background-size: 500px 320px;
+    background-color: black;
+    border: 7px dashed gray;
+    height: 350px;
+    width: 450px;
+    position: absolute;
+    margin-left: 70vh;
+    margin-top: 25vh;
+    padding-top: 20px;
+}
+.container1
+{
+    position: absolute;
+    top: 180px;
+    left: 290px;
+}
+#startButton
+{
+    position: relative;
+    text-align: center;
+    width: 110px;
+    padding: 10px;
+    font-size: 25px;
+    color: #15f4ee;
+    font-family: poppins;
+    font-weight: 100;
+    border: 2px solid #15f4ee;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border-radius: 100px;
+
+}
+#startButton:hover
+{
+    box-shadow:
+                0 4px 20px 0 #15f4ee inset,
+                0 4px 15px 0 #15f4ee,
+                0 4px 15px 0 #15f4ee inset,
+                0 4px 20px 0 #15f4ee;
+    
+    text-shadow:   
+    0 0 1px #15f4ee, 
+    0 0 1px #15f4ee;
+    transition: 0.8s;
+}
+.container2
+{
+    position: absolute;
+    top: 250px;
+    left: 290px;
+}
+#helpButton
+{
+    position: relative;
+    text-align: center;
+    width: 110px;
+    padding: 10px;
+    font-size: 25px;
+    color: #f70375;
+    font-family: poppins;
+    font-weight: 100;
+    border: 2px solid #f70375;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border-radius: 100px;
+
+}
+#helpButton:hover
+{
+    box-shadow:
+                0 4px 20px 0 #f70375 inset,
+                0 4px 15px 0 #f70375,
+                0 4px 15px 0 #f70375 inset,
+                0 4px 20px 0 #f70375;
+    
+    text-shadow:   
+    0 0 1px #f70375, 
+    0 0 1px #f70375;
+    transition: 0.8s;
+}
+.container3
+{
+    position: absolute;
+    top: 270px;
+    left: 180px;
+}
+#backButton
+{
+    position: relative;
+    text-align: center;
+    width: 110px;
+    padding: 10px;
+    font-size: 25px;
+    color: #ff0b0b;
+    font-family: poppins;
+    font-weight: 100;
+    border: 2px solid #ff0b0b;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border-radius: 100px;
+
+}
+#backButton:hover
+{
+    box-shadow:
+                0 4px 20px 0 #ff0b0b inset,
+                0 4px 15px 0 #ff0b0b,
+                0 4px 15px 0 #ff0b0b inset,
+                0 4px 20px 0 #ff0b0b;
+    
+    text-shadow:   
+    0 0 1px #ff0b0b, 
+    0 0 1px #ff0b0b;
+    transition: 0.8s;
+}
+.container4
+{
+    position: absolute;
+    top: 270px;
+    left: 180px;
+}
+#nextButton
+{
+    position: relative;
+    text-align: center;
+    width: 110px;
+    padding: 10px;
+    font-size: 25px;
+    color: #ded8f7;
+    font-family: poppins;
+    font-weight: 100;
+    border: 2px solid #ded8f7;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border-radius: 100px;
+
+}
+#nextButton:hover
+{
+    box-shadow:
+                0 4px 20px 0 #ded8f7 inset,
+                0 4px 15px 0 #ded8f7,
+                0 4px 15px 0 #ded8f7 inset,
+                0 4px 20px 0 #ded8f7;
+    
+    text-shadow:   
+    0 0 1px #ded8f7, 
+    0 0 1px #ded8f7;
+    transition: 0.8s;
+}
+.container5
+{
+    position: absolute;
+    top: 315px;
+    left: 180px;
+}
+#gameOverButton
+{
+    position: relative;
+    text-align: center;
+    width: 130px;
+    padding: 10px;
+    font-size: 25px;
+    color: #eafa0c;
+    font-family: poppins;
+    font-weight: 100;
+    border: 2px solid #eafa0c;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border-radius: 100px;
+
+}
+#gameOverButton:hover
+{
+    box-shadow:
+                0 4px 20px 0 #eafa0c inset,
+                0 4px 15px 0 #eafa0c,
+                0 4px 15px 0 #eafa0c inset,
+                0 4px 20px 0 #eafa0c;
+    
+    text-shadow:   
+    0 0 1px #eafa0c, 
+    0 0 1px #eafa0c;
+    transition: 0.8s;
+}
+#gameOver{
+    background-image: url(image/game-over.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px 410px;
+    background-color: black;
+    border: 7px dashed gray;
+    height: 350px;
+    width: 450px;
+    position: absolute;
+    margin-left: 70vh;
+    margin-top: 25vh;
+    padding-top: 20px;
+}
+
+#door-hint{
+    color: white;
+    margin-left: 80px;
+}
+#timer-div{
+    width: 130px;
+    height: 50px;
+    padding: 2px;
+    border:2px solid green;
+    margin-left: 1300px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#help{
+    background-color: black;
+    border: 7px dashed gray;
+    height: 350px;
+    width: 450px;
+    position: absolute;
+    margin-left: 70vh;
+    margin-top: 25vh;
+    padding-top: 20px; 
+    color: rgb(15, 255, 75);
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    color: rgb(82, 82, 248);
+}
+
+
+#skelton{
+    background-image: url(image/skelton2.jpg);
+    background-size: cover;
+    margin-top:45px;
+    height: 70px;
+    width: 50px;
+    position: absolute;
+}
+#shadow{
+    background-image: url(image/shadow-front1.jpg);
+    margin-top:-542px;
+    margin-left: 1200px;
+    height: 92px;
+    width: 50px;
+    background-size: cover;
+    position: absolute;
+}
+#lock1{
+    margin-top: 515px;
+    border: 1px solid black;
+    margin-left: 930px;
+    height: 113px;
+    width: 10px;
+    background-image: url(image/bars.png);
+    background-size: 10px 113px;
+}
+#lock2{
+    margin-top: -447px;
+    margin-left: 0px;
+    border: 1px solid black;
+    height: 10px;
+    width: 70px;
+    background-image: url(image/bars.png);
+    background-size: 70px 10px;
+}
+#lock3{
+    margin-top: -270px;
+    border: 1px solid black;
+    margin-left: 930px;
+    height: 140px;
+    width: 10px;
+    background-image: url(image/bars.png);
+    background-size: 10px 140px;
+}
+#button1{
+    margin-top: 390px;
+    margin-left: 1000px;
+    height: 20px;
+    width: 25px;
+    background-image: url(image/blue-push-button.png);
+    background-size: 25px 25px;
+}
+#button2{
+    margin-top: -150px;
+    margin-left: 250px;
+    height: 20px;
+    width: 25px;
+    background-image: url(image/blue-push-button.png);
+    background-size: 25px 25px;
+}
+#button3{
+    margin-top: -170px;
+    margin-left: 950px;
+    height: 20px;
+    width: 25px;
+    background-image: url(image/blue-push-button.png);
+    background-size: 25px 25px;
+}
+#moveBox{
+    margin-top: 257px;
+    margin-left: 1400px;
+    height: 25px;
+    width: 27px;
+    background-image: url(image/box.png);
+    background-size: 27px 25px;
+}
+#shadowBronzeKey{
+    background-image: url(image/shadow-bronzeKey.png);
+    height: 90px;
+    width: 50px;
+    margin-top: -540px;
+    margin-left: 870px;
+    background-size: cover;
+    position:absolute;
+}
+#shadowSilverKey{
+    background-image: url(image/shadow-silverKey.png);
+    height: 90px;
+    width: 50px;
+    margin-top: -275px;
+    margin-left: 1400px;
+    background-size: cover;
+    position:absolute;
+}
+#shadowGoldKey{
+    background-image: url(image/shadow-goldKey.png);
+    height: 90px;
+    width: 50px;
+    margin-top: 23px;
+    margin-left: 1300px;
+    background-size: cover;
+    position:absolute;
+}
+#skeltonBronzekey{
+    background-image: url(image/silver-key.png);
+    height: 90px;
+    width: 50px;
+    margin-top: -130px;
+    margin-left: 1450px;
+    background-size: cover;
+    position:absolute;
+}
+#skeltonGoldKey{
+    background-image: url(image/gold-key.png);
+    height: 100px;
+    width: 50px;
+    margin-top: -550px;
+    margin-left: 1100px;
+    background-size: cover;
+    position:absolute;
+}
+#finalWin{
+    border: 2px solid white;
+    width: 850px;
+    height: 500px;
+    margin-top: -450px;
+    margin-left: 350px;
+    background-image: url(image/end-img.png);
+    background-size: cover;
+    position: absolute;
+}
+.container6
+{
+    position: absolute;
+    top: 355px;
+    left: 320px;
+}
+#restartButton
+{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fa570c;
+    font-family: poppins;
+    font-weight: 100;
+    border: 2px solid #fa570c;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border-radius: 100px;
+
+}
+#restartButton:hover
+{
+    box-shadow:
+                0 4px 20px 0 #fa570c inset,
+                0 4px 15px 0 #fa570c,
+                0 4px 15px 0 #fa570c inset,
+                0 4px 20px 0 #fa570c;
+    
+    text-shadow:   
+    0 0 1px #fa570c, 
+    0 0 1px #fa570c;
+    transition: 0.8s;
+}
+#lock1text
+{
+    margin-top: 100px;
+    margin-left: 950px;
+    width:90px;
+    height: 50px;
+    color:white;
+}
+#lock2text
+{
+    margin-top: -400px;
+    margin-left: 50px;
+    width:90px;
+    height: 50px;
+    color:white;
+}
+#skeltonDoor
+{
+    margin-top: -50px;
+    margin-left: 1350px;
+    width:90px;
+    height: 50px;
+    color:white;
+}
+
+#weighttext
+{
+    margin-top: -200px;
+    margin-left: 1300px;
+    width:90px;
+    height: 50px;
+    color:white;
+}
+#step1
+{
+    margin-top: 0px;
+    margin-left: 500px;
+    width: 500px;
+    height: 318px;
+    border: 2px solid white;
+    background-image: url(image/step1.png);
+    background-size: 540px,300px;
+    background-repeat: no-repeat;
+}
+.container7
+{
+    margin-top: 260px;
+    margin-left: 360px;
+    position: absolute;
+}
+#nextButton1
+{
+    position: relative;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    color: #f83888ea;
+    font-family: poppins;
+    font-weight: 100;
+    border: 2px solid #f83888ea;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border-radius: 100px;
+
+}
+#nextButton1:hover
+{
+    box-shadow:
+                0 4px 20px 0 #f83888ea inset,
+                0 4px 15px 0 #f83888ea,
+                0 4px 15px 0 #f83888ea inset,
+                0 4px 20px 0 #f83888ea;
+    
+    text-shadow:   
+    0 0 1px #f83888ea, 
+    0 0 1px #f83888ea;
+    transition: 0.8s;
+}
+#step2
+{
+    margin-top: -300px;
+    margin-left: 500px;
+    width: 500px;
+    height: 316px;
+    border: 2px solid white;
+    background-image: url(image/step2.png);
+    background-size: 540px,300px;
+    background-repeat: no-repeat;
+}
+.container8
+{
+    margin-top: 260px;
+    margin-left: 360px;
+    position: absolute;
+}
+#nextButton2
+{
+    position: relative;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    color: #f83888ea;
+    font-family: poppins;
+    font-weight: 100;
+    border: 2px solid #f83888ea;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border-radius: 100px;
+
+}
+#nextButton2:hover
+{
+    box-shadow:
+                0 4px 20px 0 #f83888ea inset,
+                0 4px 15px 0 #f83888ea,
+                0 4px 15px 0 #f83888ea inset,
+                0 4px 20px 0 #f83888ea;
+    
+    text-shadow:   
+    0 0 1px #f83888ea, 
+    0 0 1px #f83888ea;
+    transition: 0.8s;
+}
+#timer-div1
+{
+    margin-top: -540px;
+    margin-left: 60px;
+    width: 100px;
+    height:60px;
+    border: 2px solid white;
+    padding: 2px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#gameOver1{
+    background-image: url(image/game-over.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px 410px;
+    background-color: black;
+    border: 2px solid white;
+    height: 350px;
+    width: 450px;
+    position: absolute;
+    margin-left: 70vh;
+    margin-top: 19vh;
+    padding-top: 20px;
+}
+.container9
+{
+    position: absolute;
+    top: 315px;
+    left: 180px;
+}
+#gameOverButton1
+{
+    position: relative;
+    text-align: center;
+    width: 130px;
+    padding: 10px;
+    font-size: 25px;
+    color: #eafa0c;
+    font-family: poppins;
+    font-weight: 100;
+    border: 2px solid #eafa0c;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border-radius: 100px;
+
+}
+#gameOverButton1:hover
+{
+    box-shadow:
+                0 4px 20px 0 #eafa0c inset,
+                0 4px 15px 0 #eafa0c,
+                0 4px 15px 0 #eafa0c inset,
+                0 4px 20px 0 #eafa0c;
+    
+    text-shadow:   
+    0 0 1px #eafa0c, 
+    0 0 1px #eafa0c;
+    transition: 0.8s;
+}

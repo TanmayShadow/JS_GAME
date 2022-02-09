@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: grey;
+}
+nav{
+    background: #594848;
+    width: 100%;
+    overflow: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    float: left;
+}
+nav a{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #594848;
+    font-size: 17px;
+    color: white;
+    padding: 20px 10px;
+    font-family: Arial;
+}
+nav a:hover{
+    background: skyblue;
+    color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: #ffbf60;
+    overflow: auto;
+}
+.Games{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.Games img{
+    width: 390px;
+    height: 300px;
+}
+.Games a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(49, 2, 255);
+    font-family: Arial;
+}
+.Games a:hover{
+    background: rgb(43, 228, 26);
+    color: black;
+}
+
+
+.Escape a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(49, 2, 255);
+    font-family: Arial;
+}
+.Escape a:hover{
+    background: rgb(43, 228, 26);
+    color: black;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+
+}
+.Escape{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 900px;
+    margin-left: 150px;;
+}
+.Escape img{
+    width: 900px;
+    height: 400px;
+}
+footer{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    background: #594848;
+    color: white;
+    font-family: Arial;
+    letter-spacing: 1px;
+}

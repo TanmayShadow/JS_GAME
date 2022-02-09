@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape - The Dark Room</title>
+    <link rel="icon" href="image/game-control.png"/>
+</head>
+<body id="bodyId">
+    <div id="background">
+        <audio src="audio.mp3" id="myAudio"></audio>
+        <div id="start">
+            <div class="container1" onclick="startIt()">
+                <div id="startButton">START</div>
+            </div>
+            <div class="container2" onclick="helpIt()">
+                <div id="helpButton">HELP</div>
+            </div>
+        </div>
+        <div id="help"><p>Help</p>Collect all keys within the time and Open the door
+            <div class="container3" onclick="backIt()">
+                <div id="backButton">BACK</div>
+            </div>
+        </div>
+        
+        <div id="box1"></div>
+        <div id="gold-key"></div>
+        <div id="silver-key"></div>
+        <div id="bronze-key"></div>
+        <div id="win"> 
+            <div class="container4" onclick="next()">
+                <div id="nextButton">NEXT</div>
+            </div>
+        </div>
+        <p id="door-hint">Collect all 3 keys to open the door</p> 
+        <div id="timer-div"></div>
+        <div id="gameOver">
+            <div class="container5" onclick="over()">
+                <div id="gameOverButton">RESTART</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------------------------------------------- -->
+
+    <div id="level2">
+
+        <div id="shadowBronzeKey"></div>
+        <div id="shadowSilverKey"></div>
+        <div id="shadowGoldKey"></div>
+        <div id="skeltonBronzekey"></div>
+        <div id="skeltonGoldKey"></div>
+        <div id="skelton"></div>
+        <div id="shadow"></div>
+        <div id="lock1"></div>
+        <div id="lock2"></div>
+        <div id="lock3"></div>
+        <div id="button1"></div>
+        <div id="button2"></div>
+        <div id="button3"></div>
+        <div id="moveBox"></div>
+        <div id="finalWin">
+            <div class="container6" onclick="restart()">
+                <div id="restartButton">Play Again</div>
+            </div>
+        </div>
+        <div id="lock1text">Press Button To Unlock The Lock</div>
+        <div id="lock2text">Press Button To Unlock The Lock</div>
+        <div id="skeltonDoor">Collect 2 skelton keys to open skelton door</div>
+        <div id="weighttext">Press F to lift or Put the box</div>
+        <div id="step1">
+            <div class="container7" onclick="next1()">
+                <div id="nextButton1">NEXT</div>
+            </div>
+        </div>
+        <div id="step2">
+            <div class="container8" onclick="next2()">
+                <div id="nextButton2">START</div>
+            </div>
+        </div>
+        <div id="timer-div1"></div>
+        <div id="gameOver1">
+            <div class="container9" onclick="over()">
+                <div id="gameOverButton1">RESTART</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"> </script>
+
+</body>
+</html>
